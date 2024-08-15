@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="website-application-hosting/app.css" />
     <title>Weather App application</title>
   </head>
   <body>
@@ -22,15 +22,15 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city" id="current-city">Durban</h1>
+            <h1 class="current-city" id="current-city"></h1>
             <p class="current-details">
-              <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>82%</strong>, Wind: <strong>9.4km/h</strong>
+              <span id="current-date"><span id="description"></span></span> <br />
+              <strong id="humidity"></strong><strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="current-temperature">
             <span class="current-temperature-icon">☀️</span
-            ><span class="current-temperature-value">24</span
+            ><span class="current-temperature-value" id="temperature"></span
             ><span class="current-temperature-unit">°C</span>
           </div>
         </div>
@@ -39,11 +39,11 @@
         <p>
           This project was coded by
           <a href="#" target="_blank">Lungiswa Mgeyi</a> and is
-          <a href="#" target="_blank"> on GitHub</a> and
-          <a href="#" target="_blank">hosted on Netlify</a>
+          <a href="https://github.com/lungiswa23M/wesite-application" target="_blank"> on GitHub</a> and
+          <a href="https://lungiswa-weather-app.netlify.app" target="_blank">hosted on Netlify</a>
         </p>
       </footer>
     </div>
   </body>
-  <script src="src/index.js"></script>
+  <script src="website-application-hosting/app.js"></script>
 </html>
